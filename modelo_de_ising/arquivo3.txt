@@ -1,0 +1,16 @@
+reset
+
+set xlabel "Temperatura"
+set ylabel "Calor Específico" 
+set title "Calor Específico Vs. Temperatura" offset 0,-0.68
+set key inside top right
+
+
+set key noautotitle
+set grid
+
+set arrow from 2.2691853, graph 0 to 2.269, graph 1 nohead  
+
+plot    "saida.txt" u 1:4  w lp  lt 7 lc 2 
+
+#Para rodar, entre no gnuplot pelo terminal e escreva load "arquivo3.txt"
