@@ -4,7 +4,7 @@ O modelo de Ising é muito empregado na física do estado sólido e consiste em 
 
 O programa utiliza o algoritmo Metropolis que é o algoritmo mais conhecido para se gerar uma cadeia de Markov em sistemas de spins. Este algoritmo é do tipo Monte Carlo, são uma classe de algoritmos que utilizam amostragem aleatória repetida para encontrar resultados.
 
-O objetivo do projeto é criar um programa serial em C++ do modelo de Ising, fazer varias simulações e depois validar os resultados obtidos com os resultados esperados, encontrados nas literaturas de Física.
+O objetivo do projeto é criar um programa serial em C/C++ do modelo de Ising, fazer varias simulações e depois validar os resultados obtidos com os resultados esperados, encontrados nas literaturas de Física.
 
 Os gráficos foram feitos no gnuplot. As simulações foram realizados com a seguinte condição inicial:
 
